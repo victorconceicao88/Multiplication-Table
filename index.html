@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Victor Times Table </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img  id="logo"  src="times table.jpg" width="100">
+        <h1> Times Table </h1>
+    </header>
+    <section> <!--One div will be for the top second div for results -->
+        <div>
+            <p> 
+                Which Number would You like to Multiply?<br>
+                <input ype="number"  class="form" placeholder="Type a number here...." id="num">
+            </p>
+            <p> 
+                Until up to Which Number you Looking to Multiply?<br>
+                <input type="number" class="form" placeholder="Type a number here...." id="final">
+            </p>
+            <p>
+                <input type="button" value="Calculate" id="button" onclick="timestable()">
+            </p>
+        </div>
+        <div id="results">
+            Fill the Values on the Above Tables
+        </div>
+      
+    </section>
+    <script src="timestable_script.js"></script>
+</body>
+</html>
